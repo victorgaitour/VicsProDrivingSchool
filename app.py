@@ -5,7 +5,7 @@ app.config['SECRET_KEY'] = "Alex is great"
 @app.route("/", methods = ["POST", "GET"])
 @app.route("/home", methods = ["POST", "GET"])
 def home():
-    return render_template("home.html")
+    return render_template("index.html")
 
 
 
